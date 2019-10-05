@@ -1,0 +1,121 @@
+0    INFO  [2019-09-05 21:52:00]  Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@723e88f9: startup date [Thu Sep 05 21:52:00 CST 2019]; root of context hierarchy
+614  INFO  [2019-09-05 21:52:00]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+729  INFO  [2019-09-05 21:52:00]  Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c38b3b7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10103 INFO  [2019-09-05 21:52:10]  No active profile set, falling back to default profiles: default
+10160 INFO  [2019-09-05 21:52:10]  Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36074e47: startup date [Thu Sep 05 21:52:10 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@723e88f9
+15050 INFO  [2019-09-05 21:52:15]  BeanFactory id=26162df7-0712-3fd5-8c0a-2d64329af490
+15119 INFO  [2019-09-05 21:52:15]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+15291 INFO  [2019-09-05 21:52:15]  Bean 'com.mayikt.member.feign.MemberExitServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15295 INFO  [2019-09-05 21:52:15]  Bean 'com.mayikt.member.feign.MemberLoginServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15301 INFO  [2019-09-05 21:52:15]  Bean 'com.mayikt.member.feign.MemberRegisterServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15305 INFO  [2019-09-05 21:52:15]  Bean 'com.mayikt.member.feign.MemberServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15309 INFO  [2019-09-05 21:52:15]  Bean 'com.mayikt.member.feign.QQAuthoriServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15314 INFO  [2019-09-05 21:52:15]  Bean 'com.mayikt.member.feign.WXAuthoriServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16186 INFO  [2019-09-05 21:52:16]  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c38b3b7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20976 INFO  [2019-09-05 21:52:21]  Tomcat initialized with port(s): 8010 (http)
+21988 INFO  [2019-09-05 21:52:22]  Root WebApplicationContext: initialization completed in 11828 ms
+23888 INFO  [2019-09-05 21:52:23]  Mapping filter: 'characterEncodingFilter' to: [/*]
+23889 INFO  [2019-09-05 21:52:23]  Mapping filter: 'sessionRepositoryFilter' to: [/*]
+23889 INFO  [2019-09-05 21:52:23]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23889 INFO  [2019-09-05 21:52:23]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23896 INFO  [2019-09-05 21:52:23]  Mapping filter: 'requestContextFilter' to: [/*]
+23896 INFO  [2019-09-05 21:52:23]  Mapping filter: 'XxlSsoWebFilter' to urls: [/*]
+23897 INFO  [2019-09-05 21:52:23]  Servlet dispatcherServlet mapped to [/]
+24332 INFO  [2019-09-05 21:52:24]  Refreshing FeignContext-app-mayikt-member: startup date [Thu Sep 05 21:52:24 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36074e47
+24423 INFO  [2019-09-05 21:52:24]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+26430 INFO  [2019-09-05 21:52:26]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27190 INFO  [2019-09-05 21:52:27]  Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36074e47: startup date [Thu Sep 05 21:52:10 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@723e88f9
+27499 INFO  [2019-09-05 21:52:27]  Mapped "{[/getVerify]}" onto public void com.mayikt.code.VerifyController.getVerify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+27503 INFO  [2019-09-05 21:52:27]  Mapped "{[/exit],methods=[GET]}" onto public java.lang.String com.mayikt.member.controller.ExitController.exit(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+27505 INFO  [2019-09-05 21:52:27]  Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.mayikt.member.controller.LoginController.getLogin()
+27506 INFO  [2019-09-05 21:52:27]  Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.mayikt.member.controller.LoginController.postLogin(com.mayikt.member.controller.req.vo.LoginVo,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+27521 INFO  [2019-09-05 21:52:27]  Mapped "{[/qqJointLogin]}" onto public java.lang.String com.mayikt.member.controller.QQAuthoriController.qqJointLogin(com.mayikt.member.controller.req.vo.LoginVo,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+27524 INFO  [2019-09-05 21:52:27]  Mapped "{[/qqLoginBack]}" onto public java.lang.String com.mayikt.member.controller.QQAuthoriController.qqLoginBack(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+27525 INFO  [2019-09-05 21:52:27]  Mapped "{[/qqAuth]}" onto public java.lang.String com.mayikt.member.controller.QQAuthoriController.QQauth(javax.servlet.http.HttpServletRequest)
+27527 INFO  [2019-09-05 21:52:27]  Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.mayikt.member.controller.RegisterController.postRegister(com.mayikt.member.controller.req.vo.RegisterVo,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+27527 INFO  [2019-09-05 21:52:27]  Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.mayikt.member.controller.RegisterController.getRegister()
+27528 INFO  [2019-09-05 21:52:27]  Mapped "{[/]}" onto public java.lang.String com.mayikt.portal.IndexController.index(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)
+27539 INFO  [2019-09-05 21:52:27]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+27544 INFO  [2019-09-05 21:52:27]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+28158 INFO  [2019-09-05 21:52:28]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28160 INFO  [2019-09-05 21:52:28]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28277 INFO  [2019-09-05 21:52:28]  Detected @ExceptionHandler methods in globalExceptionHandler
+31369 INFO  [2019-09-05 21:52:31]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+43591 INFO  [2019-09-05 21:52:43]  Registering beans for JMX exposure on startup
+43655 INFO  [2019-09-05 21:52:43]  Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+43655 INFO  [2019-09-05 21:52:43]  Bean with name 'environmentManager' has been autodetected for JMX exposure
+43657 INFO  [2019-09-05 21:52:43]  Bean with name 'refreshScope' has been autodetected for JMX exposure
+43662 INFO  [2019-09-05 21:52:43]  Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+43717 INFO  [2019-09-05 21:52:43]  Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+43755 INFO  [2019-09-05 21:52:43]  Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=36074e47,type=ConfigurationPropertiesRebinder]
+43791 INFO  [2019-09-05 21:52:43]  Starting beans in phase 0
+43828 INFO  [2019-09-05 21:52:43]  Setting initial instance status as: STARTING
+51287 INFO  [2019-09-05 21:52:51]  Registering application app-mayikt-portal-web with eureka with status UP
+51295 INFO  [2019-09-05 21:52:51]  Starting beans in phase 2147483647
+51369 INFO  [2019-09-05 21:52:51]  No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+51503 INFO  [2019-09-05 21:52:51]  Tomcat started on port(s): 8010 (http) with context path ''
+51504 INFO  [2019-09-05 21:52:51]  Updating port to 8010
+51509 INFO  [2019-09-05 21:52:51]  Started AppPortalWeb in 61.004 seconds (JVM running for 63.516)
+304216 INFO  [2019-09-05 21:57:04]  FrameworkServlet 'dispatcherServlet': initialization started
+304297 INFO  [2019-09-05 21:57:04]  FrameworkServlet 'dispatcherServlet': initialization completed in 81 ms
+0    INFO  [2019-09-05 22:09:36]  Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@63eef88a: startup date [Thu Sep 05 22:09:36 CST 2019]; root of context hierarchy
+536  INFO  [2019-09-05 22:09:37]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+619  INFO  [2019-09-05 22:09:37]  Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$87d4a76c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+5910 INFO  [2019-09-05 22:09:42]  No active profile set, falling back to default profiles: default
+5961 INFO  [2019-09-05 22:09:42]  Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26a94fa5: startup date [Thu Sep 05 22:09:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@63eef88a
+9915 INFO  [2019-09-05 22:09:46]  BeanFactory id=26162df7-0712-3fd5-8c0a-2d64329af490
+9972 INFO  [2019-09-05 22:09:46]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10362 INFO  [2019-09-05 22:09:47]  Bean 'com.mayikt.member.feign.MemberExitServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10366 INFO  [2019-09-05 22:09:47]  Bean 'com.mayikt.member.feign.MemberLoginServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10374 INFO  [2019-09-05 22:09:47]  Bean 'com.mayikt.member.feign.MemberRegisterServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10378 INFO  [2019-09-05 22:09:47]  Bean 'com.mayikt.member.feign.MemberServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10382 INFO  [2019-09-05 22:09:47]  Bean 'com.mayikt.member.feign.QQAuthoriServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10388 INFO  [2019-09-05 22:09:47]  Bean 'com.mayikt.member.feign.WXAuthoriServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11466 INFO  [2019-09-05 22:09:48]  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$87d4a76c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15013 INFO  [2019-09-05 22:09:51]  Tomcat initialized with port(s): 8010 (http)
+16223 INFO  [2019-09-05 22:09:53]  Root WebApplicationContext: initialization completed in 10261 ms
+17544 INFO  [2019-09-05 22:09:54]  Mapping filter: 'characterEncodingFilter' to: [/*]
+17545 INFO  [2019-09-05 22:09:54]  Mapping filter: 'sessionRepositoryFilter' to: [/*]
+17561 INFO  [2019-09-05 22:09:54]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17561 INFO  [2019-09-05 22:09:54]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17562 INFO  [2019-09-05 22:09:54]  Mapping filter: 'requestContextFilter' to: [/*]
+17562 INFO  [2019-09-05 22:09:54]  Mapping filter: 'XxlSsoWebFilter' to urls: [/*]
+17562 INFO  [2019-09-05 22:09:54]  Servlet dispatcherServlet mapped to [/]
+17838 INFO  [2019-09-05 22:09:54]  Refreshing FeignContext-app-mayikt-member: startup date [Thu Sep 05 22:09:54 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26a94fa5
+17954 INFO  [2019-09-05 22:09:54]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+19664 INFO  [2019-09-05 22:09:56]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21050 INFO  [2019-09-05 22:09:57]  Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26a94fa5: startup date [Thu Sep 05 22:09:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@63eef88a
+21361 INFO  [2019-09-05 22:09:58]  Mapped "{[/getVerify]}" onto public void com.mayikt.code.VerifyController.getVerify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21365 INFO  [2019-09-05 22:09:58]  Mapped "{[/exit],methods=[GET]}" onto public java.lang.String com.mayikt.member.controller.ExitController.exit(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21367 INFO  [2019-09-05 22:09:58]  Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.mayikt.member.controller.LoginController.postLogin(com.mayikt.member.controller.req.vo.LoginVo,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+21368 INFO  [2019-09-05 22:09:58]  Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.mayikt.member.controller.LoginController.getLogin()
+21370 INFO  [2019-09-05 22:09:58]  Mapped "{[/qqJointLogin]}" onto public java.lang.String com.mayikt.member.controller.QQAuthoriController.qqJointLogin(com.mayikt.member.controller.req.vo.LoginVo,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+21371 INFO  [2019-09-05 22:09:58]  Mapped "{[/qqLoginBack]}" onto public java.lang.String com.mayikt.member.controller.QQAuthoriController.qqLoginBack(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+21373 INFO  [2019-09-05 22:09:58]  Mapped "{[/qqAuth]}" onto public java.lang.String com.mayikt.member.controller.QQAuthoriController.QQauth(javax.servlet.http.HttpServletRequest)
+21374 INFO  [2019-09-05 22:09:58]  Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.mayikt.member.controller.RegisterController.getRegister()
+21375 INFO  [2019-09-05 22:09:58]  Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.mayikt.member.controller.RegisterController.postRegister(com.mayikt.member.controller.req.vo.RegisterVo,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+21375 INFO  [2019-09-05 22:09:58]  Mapped "{[/]}" onto public java.lang.String com.mayikt.portal.IndexController.index(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)
+21382 INFO  [2019-09-05 22:09:58]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21384 INFO  [2019-09-05 22:09:58]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21521 INFO  [2019-09-05 22:09:58]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21525 INFO  [2019-09-05 22:09:58]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21563 INFO  [2019-09-05 22:09:58]  Detected @ExceptionHandler methods in globalExceptionHandler
+23841 INFO  [2019-09-05 22:10:00]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+33722 INFO  [2019-09-05 22:10:10]  Registering beans for JMX exposure on startup
+33747 INFO  [2019-09-05 22:10:10]  Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+33748 INFO  [2019-09-05 22:10:10]  Bean with name 'environmentManager' has been autodetected for JMX exposure
+33750 INFO  [2019-09-05 22:10:10]  Bean with name 'refreshScope' has been autodetected for JMX exposure
+33760 INFO  [2019-09-05 22:10:10]  Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+33795 INFO  [2019-09-05 22:10:10]  Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+33827 INFO  [2019-09-05 22:10:10]  Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=26a94fa5,type=ConfigurationPropertiesRebinder]
+33861 INFO  [2019-09-05 22:10:10]  Starting beans in phase 0
+33916 INFO  [2019-09-05 22:10:10]  Setting initial instance status as: STARTING
+42166 INFO  [2019-09-05 22:10:19]  Registering application app-mayikt-portal-web with eureka with status UP
+42177 INFO  [2019-09-05 22:10:19]  Starting beans in phase 2147483647
+42272 INFO  [2019-09-05 22:10:19]  No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+42507 INFO  [2019-09-05 22:10:19]  Tomcat started on port(s): 8010 (http) with context path ''
+42519 INFO  [2019-09-05 22:10:19]  Updating port to 8010
+42537 INFO  [2019-09-05 22:10:19]  Started AppPortalWeb in 54.082 seconds (JVM running for 57.85)
+244714 INFO  [2019-09-05 22:13:41]  FrameworkServlet 'dispatcherServlet': initialization started
+244792 INFO  [2019-09-05 22:13:41]  FrameworkServlet 'dispatcherServlet': initialization completed in 78 ms
+42345766 ERROR [2019-09-06 09:55:22]  Connection failure occurred. Restarting subscription task after 5000 ms

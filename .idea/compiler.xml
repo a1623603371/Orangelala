@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="meite-shop-alipay-plugin" />
+        <module name="meite-shop-api-member-dto" />
+        <module name="meite-shop-api-pay-dto" />
+        <module name="meite-shop-api-product-dto" />
+        <module name="meite-shop-api-weixin-dto" />
+        <module name="meite-shop-basics-elk-kafka" />
+        <module name="meite-shop-basics-springcloud-eureka" />
+        <module name="meite-shop-basics-springcloud-zuul" />
+        <module name="meite-shop-basics-xxl-sso-server" />
+        <module name="meite-shop-common-core" />
+        <module name="meite-shop-common-web-core" />
+        <module name="meite-shop-pay-job" />
+        <module name="meite-shop-portal-pay-web" />
+        <module name="meite-shop-portal-spike-web" />
+        <module name="meite-shop-portal-web" />
+        <module name="meite-shop-service-api-auth" />
+        <module name="meite-shop-service-api-goods" />
+        <module name="meite-shop-service-api-integral" />
+        <module name="meite-shop-service-api-member" />
+        <module name="meite-shop-service-api-member-entity" />
+        <module name="meite-shop-service-api-pay" />
+        <module name="meite-shop-service-api-spike" />
+        <module name="meite-shop-service-api-weixin" />
+        <module name="meite-shop-service-api-wenxin-entity" />
+        <module name="meite-shop-service-auth" />
+        <module name="meite-shop-service-goods" />
+        <module name="meite-shop-service-integral" />
+        <module name="meite-shop-service-member" />
+        <module name="meite-shop-service-pay" />
+        <module name="meite-shop-service-spike" />
+        <module name="meite-shop-service-weixin" />
+        <module name="meite-shop-unionpay-plugin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="meite-shop-alipay-plugin" target="1.8" />
+      <module name="meite-shop-api-dto" target="1.8" />
+      <module name="meite-shop-api-entitys-api" target="1.8" />
+      <module name="meite-shop-api-member-dto" target="1.8" />
+      <module name="meite-shop-api-pay-dto" target="1.8" />
+      <module name="meite-shop-api-product-dto" target="1.8" />
+      <module name="meite-shop-api-weixin-dto" target="1.8" />
+      <module name="meite-shop-basics" target="1.8" />
+      <module name="meite-shop-basics-elk-kafka" target="1.8" />
+      <module name="meite-shop-basics-springcloud-eureka" target="1.8" />
+      <module name="meite-shop-basics-springcloud-zuul" target="1.8" />
+      <module name="meite-shop-basics-xxl-sso-server" target="1.8" />
+      <module name="meite-shop-common" target="1.8" />
+      <module name="meite-shop-common-core" target="1.8" />
+      <module name="meite-shop-common-web-core" target="1.8" />
+      <module name="meite-shop-job" target="1.8" />
+      <module name="meite-shop-parent" target="1.8" />
+      <module name="meite-shop-pay-job" target="1.8" />
+      <module name="meite-shop-pay-plugin" target="1.8" />
+      <module name="meite-shop-portal" target="1.8" />
+      <module name="meite-shop-portal-pay-web" target="1.8" />
+      <module name="meite-shop-portal-spike-web" target="1.8" />
+      <module name="meite-shop-portal-web" target="1.8" />
+      <module name="meite-shop-service-api" target="1.8" />
+      <module name="meite-shop-service-api-auth" target="1.8" />
+      <module name="meite-shop-service-api-goods" target="1.8" />
+      <module name="meite-shop-service-api-integral" target="1.8" />
+      <module name="meite-shop-service-api-member" target="1.8" />
+      <module name="meite-shop-service-api-member-entity" target="1.8" />
+      <module name="meite-shop-service-api-pay" target="1.8" />
+      <module name="meite-shop-service-api-spike" target="1.8" />
+      <module name="meite-shop-service-api-weixin" target="1.8" />
+      <module name="meite-shop-service-api-wenxin-entity" target="1.8" />
+      <module name="meite-shop-service-auth" target="1.8" />
+      <module name="meite-shop-service-goods" target="1.8" />
+      <module name="meite-shop-service-impl" target="1.8" />
+      <module name="meite-shop-service-integral" target="1.8" />
+      <module name="meite-shop-service-member" target="1.8" />
+      <module name="meite-shop-service-pay" target="1.8" />
+      <module name="meite-shop-service-spike" target="1.8" />
+      <module name="meite-shop-service-weixin" target="1.8" />
+      <module name="meite-shop-unionpay-plugin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

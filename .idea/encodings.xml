@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/meite-shop-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-dto/meite-shop-api-member-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-dto/meite-shop-api-pay-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-dto/meite-shop-api-product-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-dto/meite-shop-api-weixin-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-entitys-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-entitys-api/meite-shop-service-api-member-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-api-entitys-api/meite-shop-service-api-wenxin-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-basics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-basics/meite-shop-basics-elk-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-basics/meite-shop-basics-springcloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-basics/meite-shop-basics-springcloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-basics/meite-shop-basics-xxl-sso-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-common/meite-shop-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-common/meite-shop-common-web-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-job/meite-shop-pay-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-pay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-pay-plugin/meite-shop-alipay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-pay-plugin/meite-shop-unionpay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-portal/meite-shop-portal-pay-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-portal/meite-shop-portal-spike-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-portal/meite-shop-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api/meite-shop-service-api-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api/meite-shop-service-api-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api/meite-shop-service-api-integral" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api/meite-shop-service-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api/meite-shop-service-api-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api/meite-shop-service-api-spike" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-api/meite-shop-service-api-weixin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl/meite-shop-service-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl/meite-shop-service-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl/meite-shop-service-integral" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl/meite-shop-service-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl/meite-shop-service-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl/meite-shop-service-spike" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-parent/meite-shop-service-impl/meite-shop-service-weixin" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
